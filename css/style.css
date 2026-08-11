@@ -37,13 +37,14 @@ img{
     color: white;
     margin: 10px 0;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .address{
     color: #c5f82a;
     font-weight: 600;
     font-size: 14px;
+    margin-bottom: 5px;
 }
 
 .description{
