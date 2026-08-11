@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+*, *::after, *::before{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Inter" , sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-card{
+    background: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    min-width: 320px;
+}
+
+img{
+    width: 80px;
+    border-radius: 50%;
+    display: block;
+    margin: 15px 0;
+}
+
+.author-name{
+    color: white;
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.address{
+    color: #c5f82a;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.description{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%
+}
+
+ul li{
+    background: #333333;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+ul li:hover{
+    background: #c5f82a;
+    cursor: pointer;
+}
+
+
+ul li:hover a {
+    color: #141414;
+}
+
+
+
+
+
